@@ -2,6 +2,7 @@
 日常遇到问题以及解决
 
 vmware linux共享文件夹不显示
+
 sudo vmhgfs-fuse .host:/ /mnt/hgfs/ -o allow_other -o uid=1000
 vmhgfs-fuse：VMware提供的用于挂载虚拟机共享文件夹的工具。
 .host:/：表示共享文件夹在虚拟机中的挂载点。
